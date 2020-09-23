@@ -242,5 +242,5 @@ async def on_command_error(ctx, error):
 		await ctx.send("Tu crois que j'vais t'obéir si t'as pas les permissions de faire cette commande connard ?")
 	elif isinstance(error, commands.CheckFailure):
 		await ctx.send("TU PEUX PAS UTILISER CETTE COMMANDE T'AS COMPRIS ?")
-
-bot.run("NzU2ODczMzgzMDUyMDUwNTI0.X2YLRA.heBAHAIfvM-bzzfgFepQ0Yo4_rg")
+		
+bot.run("token")
